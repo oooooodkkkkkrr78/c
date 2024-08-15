@@ -118,3 +118,8 @@ class Download_Cookie(threading.Thread):
     def run(self):
         download_cookie()
         return print('done')
+
+from django.http import HttpResponse
+
+def home(request):
+    return HttpResponse("Welcome to the Trading Bot!")
