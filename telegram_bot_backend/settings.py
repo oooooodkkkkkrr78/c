@@ -11,7 +11,7 @@ DRIVER_PATH = os.path.join(BASE_DIR, "chromedriver/chromedriver")
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['edalat78787878.online', 'www.edalat78787878.online']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
