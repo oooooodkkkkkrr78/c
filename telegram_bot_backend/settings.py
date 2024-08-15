@@ -9,7 +9,7 @@ SITE_MAIN_ORIGIN = "https://www.tradingview.com/"
 
 DRIVER_PATH = os.path.join(BASE_DIR, "chromedriver/chromedriver")
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['edalat78787878.online', 'www.edalat78787878.online']
 
