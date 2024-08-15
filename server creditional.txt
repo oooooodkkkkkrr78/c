@@ -1,0 +1,61 @@
+82.115.18.212
+user: root
+pass: 6XUZA7p8FqX9iZ
+
+
+
+user: ubuntu
+pass: ssO4foF#$5l7cO
+
+
+
+
+http://127.0.0.1:8000/webhooks/post/key=2Qy96xavG3qHGpZ7pAHWAWwSAYP4/
+
+
+https://shabake-art.ir/webhooks/post/key=2Qy96xavG3qHGpZ7pAHWAWwSAYP4/
+
+
+
+
+https://api.telegram.org/bot5659139931:AAHy1w9QvVEXq3-idWmGduW4sOjg-A186M8/setWebhook?url=https://shabake-art.ir/webhooks/post/key=2Qy96xavG3qHGpZ7pAHWAWwSAYP4/ch=1/img=1/wt=1/sign=1/
+
+
+
+
+		chart_id,
+                exchange,
+                symbol,
+                timeframe,
+                zoom,
+                topWat,
+                send2Admin
+
+url = 'https://www.tradingview.com/' + chart_id + '?symbol=' + exchange + ':' + ticker + '&interval=' + interval
+
+data["msg"]
+data["tf"]
+data["sg"]
+data["ch"]
+data["ex"]
+data["sy"]
+
+{'Update_Id': 550621622, 'Message': {'Message_Id': 5, 'From': {'Id': 69254432, 'Is_Bot': 'False', 'First_Name': 'Amir Hoseyn', 'Username': 'Shahab_1372', 'Language_Code': 'En'}, 'Chat': {'Id': 69254432, 'First_Name': 'Amir Hoseyn', 'Username': 'Shahab_1372', 'Type': 'Private'}, 'Date': 1666164601, 'Text': '/Start', 'Entities': [{'Offset': 0, 'Length': 6, 'Type': 'Bot_Command'}]}}
+
+{
+
+    "ch": "H4SOhtlJ",
+
+    "sy": "1011",
+
+    "ex": "BINANCE",
+
+    "tf": "5",
+
+    "zm": 0,
+
+    "sg": "Name",
+
+    "msg": "Your description"
+
+}
