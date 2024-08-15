@@ -1,13 +1,13 @@
-admin = 115025624
+admin = 143276669
 
 # persianChannel = -1001687669560
-englishChannel = -1001704378282
+englishChannel = -1001687669560
 
 # englishChannel = 'gdgdgsga'
 
 # trading-view auth
-username = "feyahe9238"
-password = "feyahe9238"
+username = "jenaba2839"
+password = "jenaba2839"
 
 
 # default chart settings
@@ -16,7 +16,7 @@ symbol = "btcusdt"
 timeframe = "15"
 
 # server
-baseUrl = "http://capture.shabake-art.ir/"
+baseUrl = "http://edalat78787878.online/"
 
 
 # spoil text
