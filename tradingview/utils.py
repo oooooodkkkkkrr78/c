@@ -13,7 +13,6 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from telegram_bot_backend.settings import DRIVER_PATH
 from latest_user_agents import get_random_user_agent
-from Screenshot import Screenshot
 from logger.views import logger
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
