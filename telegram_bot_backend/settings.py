@@ -12,6 +12,9 @@ DRIVER_PATH = os.path.join(BASE_DIR, "chromedriver/chromedriver")
 DEBUG = False
 
 ALLOWED_HOSTS = ['edalat78787878.online', 'www.edalat78787878.online']
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 INSTALLED_APPS = [
     'django.contrib.admin',
