@@ -5,10 +5,12 @@ from django.conf import settings
 from tradingview import views  # Import views from the tradingview app
 
 urlpatterns = [
-    path('', views.home, name='home'),  # Add this line for the root URL
+    path('', views.home, name='home'),  # Root URL
     path('admin/', admin.site.urls),
-    path('webhooks/', include('tradingview.urls'))
+    path('webhooks/', include('tradingview.urls')),
 ]
 
-urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
-urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+# Only add these in debug mode
+if settings.DEBUG:
+    urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
